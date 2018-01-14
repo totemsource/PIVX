@@ -1,0 +1,26 @@
+[Unit]
+Description=TOTEM's distributed currency daemon
+After=network.target
+
+[Service]
+User=totem
+Group=totem
+
+Type=forking
+PIDFile=/var/lib/totemd/totemd.pid
+
+ExecStart=/usr/bin/totemd -daemon -pid=/var/lib/totemd/totemd.pid \
+          -conf=/etc/totem/totem.conf -datadir=/var/lib/totemd
+
+ExecStop=-/usr/bin/totem-cli -conf=/etc/totem/totem.conf \
+         -datadir=/var/lib/totemd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

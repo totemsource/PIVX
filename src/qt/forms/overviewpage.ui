@@ -240,7 +240,7 @@
                           </font>
                          </property>
                          <property name="text">
-                          <string>PIV Balances</string>
+                          <string>TOTENX Balances</string>
                          </property>
                         </widget>
                        </item>
@@ -250,7 +250,7 @@
                           <cursorShape>WhatsThisCursor</cursorShape>
                          </property>
                          <property name="toolTip">
-                          <string>The displayed information may be out of date. Your wallet automatically synchronizes with the PIVX network after a connection is established, but this process has not completed yet.</string>
+                          <string>The displayed information may be out of date. Your wallet automatically synchronizes with the TOTEM network after a connection is established, but this process has not completed yet.</string>
                          </property>
                          <property name="styleSheet">
                           <string notr="true">QLabel { color: red; }</string>
@@ -317,7 +317,7 @@
                           <string>Unconfirmed transactions to watch-only addresses</string>
                          </property>
                          <property name="text">
-                          <string notr="true">0.000 000 00 PIV</string>
+                          <string notr="true">0.000 000 00 TOTENX</string>
                          </property>
                          <property name="alignment">
                           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -342,7 +342,7 @@
                           <string>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</string>
                          </property>
                          <property name="text">
-                          <string notr="true">0.000 000 00 PIV</string>
+                          <string notr="true">0.000 000 00 TOTENX</string>
                          </property>
                          <property name="alignment">
                           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -367,7 +367,7 @@
                           <string>Staked or masternode rewards in watch-only addresses that has not yet matured</string>
                          </property>
                          <property name="text">
-                          <string notr="true">0.000 000 00 PIV</string>
+                          <string notr="true">0.000 000 00 TOTENX</string>
                          </property>
                          <property name="alignment">
                           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -399,7 +399,7 @@
                           <string>Staked or masternode rewards that has not yet matured</string>
                          </property>
                          <property name="text">
-                          <string notr="true">0.000 000 00 PIV</string>
+                          <string notr="true">0.000 000 00 TOTENX</string>
                          </property>
                          <property name="alignment">
                           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -444,7 +444,7 @@
                           <string>Your current total balance</string>
                          </property>
                          <property name="text">
-                          <string notr="true">0.000 000 00 PIV</string>
+                          <string notr="true">0.000 000 00 TOTENX</string>
                          </property>
                          <property name="alignment">
                           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -469,7 +469,7 @@
                           <string>Current total balance in watch-only addresses</string>
                          </property>
                          <property name="text">
-                          <string notr="true">0.000 000 00 PIV</string>
+                          <string notr="true">0.000 000 00 TOTENX</string>
                          </property>
                          <property name="alignment">
                           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -511,7 +511,7 @@
                           <string>Your current spendable balance</string>
                          </property>
                          <property name="text">
-                          <string notr="true">0.000 000 00 PIV</string>
+                          <string notr="true">0.000 000 00 TOTENX</string>
                          </property>
                          <property name="alignment">
                           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -536,7 +536,7 @@
                           <string>Your current balance in watch-only addresses</string>
                          </property>
                          <property name="text">
-                          <string notr="true">0.000 000 00 PIV</string>
+                          <string notr="true">0.000 000 00 TOTENX</string>
                          </property>
                          <property name="alignment">
                           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -642,7 +642,7 @@
                         <widget class="QLabel" name="labelzBalanceMatureText">
                          <property name="toolTip">
                           <string>Mature: more than 20 confirmation and more than 3 mints of the same denomination after it was minted.
-These zPIV are spendable.</string>
+These zTOTENX are spendable.</string>
                          </property>
                          <property name="text">
                           <string>Mature:</string>
@@ -661,10 +661,10 @@ These zPIV are spendable.</string>
                           <cursorShape>IBeamCursor</cursorShape>
                          </property>
                          <property name="toolTip">
-                          <string>All available zPIV, unconfirmed and immature zPIV included.</string>
+                          <string>All available zTOTENX, unconfirmed and immature zTOTENX included.</string>
                          </property>
                          <property name="text">
-                          <string notr="true">0.000 000 00 PIV</string>
+                          <string notr="true">0.000 000 00 TOTENX</string>
                          </property>
                          <property name="alignment">
                           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -677,7 +677,7 @@ These zPIV are spendable.</string>
                        <item row="1" column="0">
                         <widget class="QLabel" name="labelzBalanceText">
                          <property name="toolTip">
-                          <string>All available zPIV, unconfirmed and immature zPIV included.</string>
+                          <string>All available zTOTENX, unconfirmed and immature zTOTENX included.</string>
                          </property>
                          <property name="text">
                           <string>Total:</string>
@@ -720,10 +720,10 @@ These zPIV are spendable.</string>
                          </property>
                          <property name="toolTip">
                           <string>Mature: more than 20 confirmation and more than 3 mints of the same denomination after it was minted.
-These zPIV are spendable.</string>
+These zTOTENX are spendable.</string>
                          </property>
                          <property name="text">
-                          <string>0.000 000 00 PIV</string>
+                          <string>0.000 000 00 TOTENX</string>
                          </property>
                          <property name="alignment">
                           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -754,7 +754,7 @@ Immature: confirmed, but less than 3 mints of the same denomination after it was
 Immature: confirmed, but less than 3 mints of the same denomination after it was minted</string>
                          </property>
                          <property name="text">
-                          <string>0.000 000 00 PIV</string>
+                          <string>0.000 000 00 TOTENX</string>
                          </property>
                          <property name="alignment">
                           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -798,7 +798,7 @@ Immature: confirmed, but less than 3 mints of the same denomination after it was
 Immature: confirmed, but less than 3 mints of the same denomination after it was minted</string>
                          </property>
                          <property name="text">
-                          <string>0.000 000 00 PIV</string>
+                          <string>0.000 000 00 TOTENX</string>
                          </property>
                          <property name="alignment">
                           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -917,7 +917,7 @@ Immature: confirmed, but less than 3 mints of the same denomination after it was
                           <string>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</string>
                          </property>
                          <property name="text">
-                          <string notr="true">0.000 000 00 PIV</string>
+                          <string notr="true">0.000 000 00 TOTENX</string>
                          </property>
                          <property name="alignment">
                           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -942,7 +942,7 @@ Immature: confirmed, but less than 3 mints of the same denomination after it was
                           <string>Total Balance, including unconfirmed and immature coins.</string>
                          </property>
                          <property name="text">
-                          <string notr="true">0.000 000 00 PIV</string>
+                          <string notr="true">0.000 000 00 TOTENX</string>
                          </property>
                          <property name="alignment">
                           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -975,7 +975,7 @@ Immature: confirmed, but less than 3 mints of the same denomination after it was
                        <item row="1" column="0">
                         <widget class="QLabel" name="labelBalanceTextz">
                          <property name="text">
-                          <string>PIV:</string>
+                          <string>TOTENX:</string>
                          </property>
                         </widget>
                        </item>
@@ -994,7 +994,7 @@ Immature: confirmed, but less than 3 mints of the same denomination after it was
                           <string>Your current spendable balance</string>
                          </property>
                          <property name="text">
-                          <string notr="true">0.000 000 00 PIV</string>
+                          <string notr="true">0.000 000 00 TOTENX</string>
                          </property>
                          <property name="alignment">
                           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -1010,14 +1010,14 @@ Immature: confirmed, but less than 3 mints of the same denomination after it was
                           <string/>
                          </property>
                          <property name="text">
-                          <string>zPIV:</string>
+                          <string>zTOTENX:</string>
                          </property>
                         </widget>
                        </item>
                        <item row="4" column="2">
-                        <widget class="QLabel" name="labelzPIVPercent">
+                        <widget class="QLabel" name="labelzTOTENXPercent">
                          <property name="toolTip">
-                          <string>Current percentage of zPIV.
+                          <string>Current percentage of zTOTENX.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%)</string>
                          </property>
                          <property name="text">
@@ -1041,10 +1041,10 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
                        <item row="2" column="1">
                         <widget class="QLabel" name="labelLockedBalance">
                          <property name="toolTip">
-                          <string>Locked PIV or Masternode collaterals. These are excluded from zPIV minting.</string>
+                          <string>Locked TOTENX or Masternode collaterals. These are excluded from zTOTENX minting.</string>
                          </property>
                          <property name="text">
-                          <string>0.000 000 00 PIV</string>
+                          <string>0.000 000 00 TOTENX</string>
                          </property>
                          <property name="alignment">
                           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -1054,7 +1054,7 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
                        <item row="2" column="0">
                         <widget class="QLabel" name="labelLockedBalanceText">
                          <property name="toolTip">
-                          <string>Locked PIV or Masternode collaterals. These are excluded from zPIV minting.</string>
+                          <string>Locked TOTENX or Masternode collaterals. These are excluded from zTOTENX minting.</string>
                          </property>
                          <property name="text">
                           <string>Locked:</string>
@@ -1064,7 +1064,7 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
                        <item row="3" column="0">
                         <widget class="QLabel" name="labelUnLockedBalanceText">
                          <property name="toolTip">
-                          <string>Unlocked PIVs. These can be used for zPIV minting.</string>
+                          <string>Unlocked TOTENXs. These can be used for zTOTENX minting.</string>
                          </property>
                          <property name="text">
                           <string>Unlocked:</string>
@@ -1074,10 +1074,10 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
                        <item row="3" column="1">
                         <widget class="QLabel" name="labelUnLockedBalance">
                          <property name="toolTip">
-                          <string>Unlocked PIVs. These can be used for zPIV minting.</string>
+                          <string>Unlocked TOTENXs. These can be used for zTOTENX minting.</string>
                          </property>
                          <property name="text">
-                          <string>0.000 000 00 PIV</string>
+                          <string>0.000 000 00 TOTENX</string>
                          </property>
                          <property name="alignment">
                           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -1085,7 +1085,7 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
                         </widget>
                        </item>
                        <item row="3" column="2">
-                        <widget class="QLabel" name="labelPIVPercent">
+                        <widget class="QLabel" name="labelTOTENXPercent">
                          <property name="text">
                           <string>0 %</string>
                          </property>
@@ -1162,7 +1162,7 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
                        <cursorShape>WhatsThisCursor</cursorShape>
                       </property>
                       <property name="toolTip">
-                       <string>The displayed information may be out of date. Your wallet automatically synchronizes with the PIVX network after a connection is established, but this process has not completed yet.</string>
+                       <string>The displayed information may be out of date. Your wallet automatically synchronizes with the TOTEM network after a connection is established, but this process has not completed yet.</string>
                       </property>
                       <property name="styleSheet">
                        <string notr="true">QLabel { color: red; }</string>

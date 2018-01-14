@@ -1,0 +1,11 @@
+[Protocol]
+exec=totem-qt '%u'
+protocol=totem
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

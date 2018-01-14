@@ -1,0 +1,26 @@
+# /etc/conf.d/totemd: config file for /etc/init.d/totemd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/totem/totem.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/totemd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/totemd.pid"
+
+# Where to write totemd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/totemd"
+
+# User and group to own totemd process
+#BITCOIND_USER="totem"
+#BITCOIND_GROUP="totem"
+
+# Path to totemd executable
+#BITCOIND_BIN="/usr/bin/totemd"
+
+# Nice value to run totemd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

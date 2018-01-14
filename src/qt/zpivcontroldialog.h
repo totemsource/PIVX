@@ -1,9 +1,9 @@
-// Copyright (c) 2017 The PIVX developers
+// Copyright (c) 2017 The TOTEM developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef ZPIVCONTROLDIALOG_H
-#define ZPIVCONTROLDIALOG_H
+#ifndef ZTOTENXCONTROLDIALOG_H
+#define ZTOTENXCONTROLDIALOG_H
 
 #include <QDialog>
 #include <QTreeWidgetItem>
@@ -52,4 +52,4 @@ private slots:
     void ButtonAllClicked();
 };
 
-#endif // ZPIVCONTROLDIALOG_H
+#endif // ZTOTENXCONTROLDIALOG_H

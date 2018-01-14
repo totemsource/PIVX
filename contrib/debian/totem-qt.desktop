@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Totem
+Comment=Totem P2P Cryptocurrency
+Comment[fr]=Totem, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Totem, eşten eşe kriptografik sanal para birimi
+Exec=totem-qt %u
+Terminal=false
+Type=Application
+Icon=totem128
+MimeType=x-scheme-handler/totem;
+Categories=Office;Finance;
